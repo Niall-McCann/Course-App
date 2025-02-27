@@ -1,4 +1,4 @@
-package com.example.course_app.TestingWeb;
+package com.example.course_app.TestingWeb.Service;
 
 import com.example.course_app.entity.Student;
 import com.example.course_app.repository.StudentRepository;
@@ -14,7 +14,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import java.util.Optional;
 
 @ExtendWith(MockitoExtension.class)
-public class StudentServiceTest {
+public class StudentServiceTestFindById {
     @Mock
     private StudentRepository studentRepository;
 
